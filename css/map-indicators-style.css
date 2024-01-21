@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.indicator-map__wrapper {
+  padding: 15px;
+  width: 100%;
+  overflow: auto;
+}
+
+.indicator-map {
+  width: 1879px;
+  height: 864px;
+  position: relative;
+  background-color: #ebe5d9;
+  background-image: url(../img/street-abbreviation.jpg);
+}
+
+.indicator__wrapper {
+  background-color: #fff;
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  padding: 2px;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  transform-origin: top left;
+}
+.indicator__pin {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.indicator__pin_green {
+  background-color: #65c180;
+  border: 1px solid #52995f;
+}
+.indicator__pin_yellow {
+  background-color: #ffd64d;
+  border: 1px solid #e5af57;
+}
+.indicator__pin_red {
+  background-color: #ec656c;
+  border: 1px solid #d06c6c;
+}
