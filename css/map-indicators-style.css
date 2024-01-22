@@ -33,6 +33,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
+  visibility: hidden;
 }
 .indicator__pin_green {
   background-color: #65c180;
@@ -45,4 +46,10 @@
 .indicator__pin_red {
   background-color: #ec656c;
   border: 1px solid #d06c6c;
+}
+
+.error-message {
+  padding: 2em;
+  color: rgb(243, 50, 50);
+  font-family: Arial, Helvetica, sans-serif;
 }
